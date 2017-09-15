@@ -1,0 +1,11 @@
+{
+    "name": "richardtianke/laravel-authorize",
+    "description": "Laravel authorize",
+    "authors": [
+        {
+            "name": "Richard Tian",
+            "email": "359426334@qq.com"
+        }
+    ],
+    "require": {}
+}
