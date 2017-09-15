@@ -1,11 +1,25 @@
 {
-    "name": "richardtianke/laravel-authorize",
+    "name": "RichardTianke/laravelAuthorize",
     "description": "Laravel authorize",
+    "license": "MIT",
+
+    "minimum-stability": "dev",
+
     "authors": [
         {
             "name": "Richard Tian",
             "email": "359426334@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "RichardTianke\\laravelAuthorize": "src/"
+        },
+        "files": [
+            "src/RichardTianke/laravelAuthorize/function.php"
+        ]
+    }
 }
